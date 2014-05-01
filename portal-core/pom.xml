@@ -11,4 +11,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <!-- modules -->
+    <modules>
+        <module>../portal-core-web-desktop</module>
+        <module>../portal-core-web-mobile</module>
+        <module>../portal-core-web-rest</module>
+        <module>../portal-core-ear</module>
+    </modules>
+
 </project>
