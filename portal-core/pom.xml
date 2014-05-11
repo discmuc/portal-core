@@ -19,4 +19,20 @@
         <module>../portal-core-ear</module>
     </modules>
 
+    <!-- profiles -->
+    <profiles>
+        <profile>
+            <id>it-build</id>
+            <activation>
+                <property>
+                    <name>c2b.test.it</name>
+                    <value>true</value>
+                </property>
+            </activation>
+            <modules>
+                <module>../portal-core-it</module>
+            </modules>
+        </profile>
+    </profiles>
+
 </project>
